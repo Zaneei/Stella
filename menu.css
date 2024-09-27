@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:  #0a2c3d url(bg1.jpg) center center fixed; 
+    background-size: cover;
+    background-blend-mode: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1 {
+    color: bisque;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.nav{
+    display: inline-block;
+    margin-left: 300px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: bisque;
+    padding: 4px;
+    transition: 2s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px #6A1A17 inset, 0 3px 50px #6A1A17 inset, 0 3px 50px #6A1A17 inset,
+    0 3px 50px #6A1A17 inset ;
+}
+.navbar .reservation{
+    padding: 8px;
+    background-color: black;
+}
+.header{
+    font-family: 'Times New Roman', Times, serif;
+}
+.header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-left: 42%;
+}
+.header h3{
+    margin-left:40%;
+}
+.menu-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.menu-section {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #34495e;
+}
+
+p {
+    font-size: 1.1em;
+    color: #00008B;
+}
+
+.price {
+    font-weight: bold;
+    color: #27ae60;
+}
