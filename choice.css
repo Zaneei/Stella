@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:  #F5F5DC center center fixed; 
+    background-size: cover;
+    background-blend-mode: soft-light;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1 {
+    color: bisque;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.nav{
+    display: inline-block;
+    margin-left: 360px;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: bisque;
+    padding: 4px;
+    transition: 2s;
+}
+.navbar ul li a:hover{
+    box-shadow: 0 3px 50px #6A1A17 inset, 0 3px 50px #6A1A17 inset, 0 3px 50px #6A1A17 inset,
+    0 3px 50px #6A1A17 inset ;
+}
+.navbar .reservation{
+    padding: 8px;
+    background-color: black;
+}
+
+.job-container {
+    text-align: center;
+    padding: 80px;
+}
+
+.job-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding: 0 40px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.job-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.job-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+}
+
+.job-card img {
+    max-width: 100%;
+    border-radius: 10px;
+    max-height: 100px;
+}
+
+.job-card h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.job-card p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 5px;
+}
+.btn {
+    background-color: bisque;
+    color: #000;
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: burlywood;
+}
