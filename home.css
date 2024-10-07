@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4 url(Picture3.png) center center fixed;
+    background-blend-mode: darken;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: bisque;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: bisque;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6A1A17;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .reservation-form {
+    display: none;
+  }
+  
+  .reservation-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  button[type="submit"] {
+    background-color:bisque;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #6A1A17;
+  }
+  .confirmation {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    text-align: center;
+  }  

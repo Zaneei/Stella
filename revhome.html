@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservation Form</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+  <h1>Reservation</h1>
+
+  <div class="button-container">
+    <button onclick="showForm('bookNow')">Book Now</button>
+    <button onclick="showForm('events')">Events</button>
+    <button onclick="showForm('weddings')">Weddings</button>
+  </div>
+
+  <div class="form-container">
+    <form id="bookNow" class="reservation-form">
+      <h2>Book Now</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="time">Reservation Time:</label>
+      <input type="time" id="time" name="time" required>
+      <label for="guests">Number of Guests:</label>
+      <input type="number" id="guests" name="guests" min="1" max="10" required>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      <label for="table">Choose a Table:</label>
+      <select id="table" name="table" required>
+        <option value="" disabled selected>Select a table</option>
+        <option value="1">Table 1 (2 seats)</option>
+        <option value="2">Table 2 (4 seats)</option>
+        <option value="3">Table 3 (6 seats)</option>
+        <option value="4">Table 4 (8 seats)</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <form id="events" class="reservation-form" style="display:none;">
+      <h2>Events</h2>
+      <label for="eventName">Event Name:</label>
+      <input type="text" id="eventName" name="eventName" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="numGuests">Number of Guests:</label>
+      <input type="number" id="numGuests" name="numGuests" required>
+      <label for="eventDate">Event Date:</label>
+      <input type="date" id="eventDate" name="eventDate" required>
+      <label for="time">Reservation Time:</label>
+      <input type="time" id="time" name="time" required>
+      <button type="submit">Submit</button>
+    </form>
+    <form id="weddings" class="reservation-form" style="display:none;">
+      <h2>Weddings</h2>
+      <label for="brideName">Bride's Name:</label>
+      <input type="text" id="brideName" name="brideName" required>
+      <label for="groomName">Groom's Name:</label>
+      <input type="text" id="groomName" name="groomName" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="weddingDate">Wedding Date:</label>
+      <input type="date" id="weddingDate" name="weddingDate" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>
